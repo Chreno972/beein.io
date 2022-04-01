@@ -111,38 +111,4 @@
             }
         }
     }
-
-    .individual_informations {
-        .getintouch_title {
-            width: 100%;
-            font-size: 24px;
-            color: #fff;
-            text-align: center;
-            margin-bottom: 15px;
-        }
-        .ourinformations {
-            display: flex;
-            justify-content: space-between;
-            .members_mails {
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                width: 270px;
-                background-color: #fff;
-                text-align: center;
-                margin: 20px 5px 0 5px;
-                padding: 5px 15px;
-                border: none;
-                box-shadow: 1px 1px 1px #fff;
-                border-radius: 5px;
-                color: #fff;
-                p {
-                    font-size: 16px;
-                    margin-left: 5px;
-                    color: #052b3e;
-                }
-            }
-        }
-    }
-    
 }
