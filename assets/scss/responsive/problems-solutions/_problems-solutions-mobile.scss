@@ -1,0 +1,41 @@
+@media all and (max-width: 30rem) {
+    #problems_solutions {
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 40px;
+        #both {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 30px 0;
+            .title_pb_title {
+                font-size: 24px;
+                margin: 0px 0 -20px 0;
+            }
+            #problems {
+                width: 100%;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                margin-bottom: 10px;
+                li {
+                    font-size: 16px;
+                    line-height: 1.2;
+                    word-wrap: break-word;
+                    margin-bottom: 10px;
+                }
+            }
+            #solutions {
+                width: 100%;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                li {
+                    font-size: 16px;
+                    line-height: 1.2;
+                    word-wrap: break-word;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

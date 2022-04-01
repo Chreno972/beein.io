@@ -1,0 +1,39 @@
+#problems_solutions {
+    width: 60%;
+    height: auto;
+    margin: 0 auto 60px auto;
+    padding: 0;
+    #both {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        .title_pb_title {
+            font-size: 30px;
+        }
+        #problems {
+            width: auto;
+            height: auto;
+            color: #052B3E;
+            padding: 0 40px;
+            line-height: 30px;
+            li {
+                font-size: 24px;
+                list-style-type: disc;
+            }
+        }
+        #solutions {
+            width: auto;
+            padding: 0 40px;
+            height: auto;
+            color: #052B3E;
+            line-height: 30px;
+            li {
+                font-size: 24px;
+                list-style-type: disc;
+            }
+        }
+    }
+}

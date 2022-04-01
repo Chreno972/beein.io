@@ -1,0 +1,42 @@
+@media screen and (orientation:landscape) and (min-width: 1024px) and (max-width: 1400px) {
+    #image_et_titre_header {
+        height: auto;
+        margin-bottom: 100px!important;
+        .colored_background{
+            height: 348px;
+        }
+        #desktop_image_header {
+            display: none;
+        }
+        #smartphone_image_header {
+            display: block;
+            width: 100%;
+            height: auto;
+            background-image: url('../../assets/images/space3.jpg');
+            background-position: 50% 0%;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            #header_writings {
+                bottom: 50%;
+                width: 100%;
+                margin-bottom: 38px;
+                padding: 0 50px;
+                h3 {
+                    position: relative;
+                    font-size: 30px;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    height: auto;
+                    width: auto;
+                }
+                #header_logo {
+                    width: 28%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

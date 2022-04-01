@@ -1,0 +1,22 @@
+@media screen and (orientation:landscape) and (max-width: 1400px) {
+    #explanation_section {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -30px;
+        margin-bottom: 15px;
+        #explanation_container {
+            width: 70%;
+            .explanations_writings {
+                width: 100%;
+                h2 {
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                h3 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

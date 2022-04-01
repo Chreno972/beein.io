@@ -1,0 +1,32 @@
+@media screen and (orientation:landscape) and (max-width: 1400px) {
+    #founding_team {
+        #founding_team_container {
+            #founding_team_content {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .member {
+                    width: 100%;
+                    height: auto;
+                    img.team_members_image {
+                        width: 200px;
+                        height: 270px;
+                        margin-top: 35px;
+                        padding: 0;
+                        border-radius: 15px;
+                    }
+                    .team_members_texts {
+                        width: 70%;
+                        p {
+                            font-size: 24px;
+                            line-height: 1.5;
+                            margin: 0;
+                            padding: 0;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

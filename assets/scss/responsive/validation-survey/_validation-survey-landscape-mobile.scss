@@ -1,0 +1,35 @@
+@media screen and (orientation:landscape) and (max-width: 1023px) {
+    .validation_survey {
+        .validation_survey_background {
+            margin-top: -15px;
+            margin-bottom: 15px;
+            padding: 30px;
+            #two_buttons {
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .validation_survey_button {
+                    width: 50%;
+                    height: 55px;
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+            #validation_survey_writtings {
+                width: 80%;
+                padding: 5px;
+                h2 {
+                    font-size: 24px;
+                    letter-spacing: 0;
+                }
+                p {
+                    width: 100%;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

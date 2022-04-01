@@ -1,0 +1,21 @@
+@media all and (max-width: 1000px) and (min-width: 481px) {
+    #explanation_section {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 15px;
+        #explanation_container {
+            width: 90%;
+            .explanations_writings {
+                width: 100%;
+                padding: 10px 50px;
+                h2 {
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

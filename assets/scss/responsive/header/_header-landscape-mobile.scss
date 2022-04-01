@@ -1,0 +1,32 @@
+@media screen and (orientation:landscape) and (max-width: 1023px) {
+    #image_et_titre_header {
+        .colored_background{
+            height: 325px;
+        }
+        #desktop_image_header {
+            display: none;
+        }
+        #smartphone_image_header {
+            margin-bottom: 80px;
+            #header_writings {
+                bottom: 50%;
+                width: 100%;
+                margin: 0 40px;
+                padding-bottom: 20px;
+                h3.header_title {
+                    position: relative;
+                    font-size: 18px;
+                    letter-spacing: 2px;
+                    top: 12px;
+                    text-align: center;
+                    height: auto;
+                    width: auto;
+                }
+                img#header_logo {
+                    width: 40%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

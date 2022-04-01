@@ -1,0 +1,33 @@
+@media screen and (orientation:landscape) and (max-width: 1400px) {
+    #problems_solutions {
+        width: 100%;
+        padding: 15px;
+        #both {
+            width: 90%;
+            height: auto;
+            margin: 0 auto 30px auto;
+            .title_pb_title {
+                font-size: 30px;
+            }
+            #problems {
+                width: 44%;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                padding: 30px;
+                li {
+                    font-size: 24px;
+                }
+            }
+            #solutions {
+                
+                width: 45%;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                padding: 30px;
+                li {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

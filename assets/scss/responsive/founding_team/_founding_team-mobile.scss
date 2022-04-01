@@ -1,0 +1,47 @@
+@media all and (max-width: 30rem) {
+    #founding_team {
+        margin-top: -10px;
+        #founding_team_container {
+            width: 100%;
+            #founding_team_title {
+                font-size: 30px;
+                margin: 10px auto
+            }
+            #founding_team_content {
+                flex-direction: column;
+                padding: 0;
+                .member {
+                    width: 100%;
+                    height: auto;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border: none;
+                    margin-bottom: 15px;
+                    border-bottom: 1px solid #052b3e31;
+                    img.team_members_image {
+                        width: 200px;
+                        height: auto;
+                        padding: 0;
+                        border-radius: 5px;
+                    }
+                    .team_members_texts {
+                        width: 100%;
+                        padding: 20px 30px;
+                        h2 {
+                            font-size: 24px;
+                            text-align: center;
+                        }
+                        h4 {
+                            text-align: center;
+                        }
+                        p {
+                            line-height: 1.5;
+                            word-wrap: break-word;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
