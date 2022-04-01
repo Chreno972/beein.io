@@ -29,3 +29,120 @@
 @import "responsive/validation-survey/validation-survey-mobile";
 @import "responsive/validation-survey/validation-survey-small-laptops";
 @import "responsive/validation-survey/validation-survey-tablets";
+
+
+#getintouch {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: #222;
+    #getintouch_container {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        .getintouch_title {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            #getintouchform {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: auto;
+                padding: 10px;
+                border: none;
+                .getintouch_inputs {
+                    width: 50%;
+                    height: 240px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    input {
+                        width: 90%;
+                        padding: 10px;
+                        margin: 10px 0;
+                        border-radius: 5px;
+                        border: none;
+                        font-size: 14px;
+                        box-shadow: 1px 1px 1px #222;
+                    }
+                }
+                .getintouch_textarea {
+                    width: 50%;
+                    height: auto;
+                    textarea {
+                        width: 90%;
+                        margin: 10px;
+                        padding: 10px;
+                        border-radius: 5px;
+                        border: none;
+                        font-size: 16px;
+                        box-shadow: 1px 1px 1px #fff;
+                    }
+                }
+            }
+            button#submit {
+                width: 25%;
+                height: 50px;
+                color: white;
+                background-color: #052b3e;
+                padding: 10px 0;
+                border: none;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: bold;
+                box-shadow: 1px 1px 5px #222;
+            }
+        }
+    }
+
+    .individual_informations {
+        .getintouch_title {
+            width: 100%;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .ourinformations {
+            display: flex;
+            justify-content: space-between;
+            .members_mails {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 270px;
+                background-color: #fff;
+                text-align: center;
+                margin: 20px 5px 0 5px;
+                padding: 5px 15px;
+                border: none;
+                box-shadow: 1px 1px 1px #fff;
+                border-radius: 5px;
+                color: #fff;
+                p {
+                    font-size: 16px;
+                    margin-left: 5px;
+                    color: #052b3e;
+                }
+            }
+        }
+    }
+    
+}
