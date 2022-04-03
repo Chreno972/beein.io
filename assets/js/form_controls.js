@@ -19,7 +19,7 @@ function form_verification() {
     const email_value = email.value.trim();
     const subject_value = subject.value.trim();
     const message_value = message.value.trim();
-    const no_injection = /^[a-zA-Z][\w\s]+$/;
+    const no_injection = /^[a-zA-Z][\w\s',]+$/;
 
     // Username verify
     if (name_value === "") {
