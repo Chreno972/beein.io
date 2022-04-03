@@ -15,7 +15,7 @@
                 img.team_members_image {
                     width: 200px;
                     height: 260px;
-                    margin-top: 65px;
+                    margin: 40px auto!important;
                     padding: 0;
                     border-radius: 15px;
                 }
@@ -32,6 +32,7 @@
                         font-size: 16px!important;
                         letter-spacing: 1px;
                         word-spacing: 1px;
+                        text-align: left!important;
                     }
                 }
             }

@@ -237,7 +237,7 @@
 }
 
 // Responsive smartphones
-@media only screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
     #getintouch {
         height: auto;
         margin: 0 auto;
@@ -250,12 +250,12 @@
             .getintouch_title {
                 width: 100%;
                 font-size: 24px;
-                color: #0d4866;
-                background-color: #fff;
+                color: #fff;
+                background-color: #222;
             }
             form {
                 width: 100%;
-                background-color: #fff;
+                background-color: #222;
                 padding: 40px 5px 40px 5px;
                 #getintouchform {
                     .getintouch_inputs {
@@ -293,4 +293,92 @@
             }
         }
     }       
+}
+
+@media screen and (orientation:landscape) and (min-width: 1024px) and (max-width: 1400px) {
+    #getintouch {
+        margin: 60px auto 0 auto;
+        background-color: #222;
+        #getintouch_container {
+            width: 100%;
+            margin-top: 10px;
+            .getintouch_title {
+                width: 60%;
+                font-size: 30px;
+                color: #0d4866;
+                background-color: #fff;
+            }
+            form {
+                width: 60%;
+                background-color: #fff;
+                padding: 40px 5px 40px 5px;
+                #getintouchform {
+                    .getintouch_inputs {
+                        width: 100%;
+                        height: 240px;
+                    }
+                    .getintouch_textarea {
+                        width: 100%;
+                        height: auto;
+                        position: relative;
+                        textarea {
+                            margin: 0px 0 35px 0;
+                            &:focus {
+                                outline: 3px solid #0d4866;
+                            }
+                        }
+                        small {
+                            position: absolute;
+                            top: 215px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Responsive tablets
+@media all and (max-width: 1000px) and (min-width: 400px) {
+    #getintouch {
+        margin: 60px auto 0 auto;
+        background-color: #222;
+        #getintouch_container {
+            width: 100%;
+            margin-top: 10px;
+            .getintouch_title {
+                width: 80%;
+                font-size: 30px;
+                color: #0d4866;
+                background-color: #fff;
+            }
+            form {
+                width: 80%;
+                background-color: #fff;
+                padding: 40px 5px 40px 5px;
+                #getintouchform {
+                    .getintouch_inputs {
+                        width: 100%;
+                        height: 240px;
+                    }
+                    .getintouch_textarea {
+                        width: 100%;
+                        height: auto;
+                        position: relative;
+                        textarea {
+                            margin: 0px 0 35px 0;
+                            &:focus {
+                                outline: 3px solid #0d4866;
+                            }
+                        }
+                        small {
+                            position: absolute;
+                            top: 215px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
