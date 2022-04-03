@@ -19,14 +19,14 @@ function form_verification() {
     const email_value = email.value.trim();
     const subject_value = subject.value.trim();
     const message_value = message.value.trim();
-    const no_injection = /^[a-zA-Z][\w\s',]+$/;
+    const no_injection = /^[a-zA-Z][\w\s',\.?!]+$/;
 
     // Username verify
     if (name_value === "") {
         let the_message = "email cannot be empty!";
     }
     else if (!name_value.match(no_injection)) {
-        let the_message = "subject must start with a letter and no special characters!";
+        let the_message = "start with a letter and no code chars";
         user_name.textContent = "";
         setError(user_name, the_message)
     }
@@ -40,7 +40,7 @@ function form_verification() {
         let the_message = "email cannot be empty!";
     }
     else if (!subject_value.match(no_injection)) {
-        let the_message = "subject must start with a letter and no special characters!";
+        let the_message = "start with a letter and no code chars";
         subject.innerText = "";
         setError(subject, the_message)
     }
@@ -54,7 +54,7 @@ function form_verification() {
         let the_message = "email cannot be empty!";
     }
     else if (!message_value.match(no_injection)) {
-        let the_message = "message must start with a letter and no special characters!";
+        let the_message = "start with a letter and no code chars";
         message.innerText = "";
         messageSetError(message, the_message)
     }

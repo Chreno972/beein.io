@@ -235,3 +235,62 @@
         }
     }
 }
+
+// Responsive smartphones
+@media only screen and (max-width: 767px) {
+    #getintouch {
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        background-color: transparent;
+        #getintouch_container {
+            width: 100%;
+            height: auto;
+            margin: 40px 10px;
+            .getintouch_title {
+                width: 100%;
+                font-size: 24px;
+                color: #0d4866;
+                background-color: #fff;
+            }
+            form {
+                width: 100%;
+                background-color: #fff;
+                padding: 40px 5px 40px 5px;
+                #getintouchform {
+                    .getintouch_inputs {
+                        width: 100%;
+                        height: 240px;
+                        .form-control {
+                            input {
+                                margin: 0 0 35px 0;
+                                &:focus {
+                                    outline: 3px solid #0d4866;
+                                }
+                            }
+                            small {
+                                top: 50px;
+                                left: 0px;
+                            }
+                        }
+                    }
+                    .getintouch_textarea {
+                        width: 100%;
+                        height: auto;
+                        position: relative;
+                        textarea {
+                            margin: 0px 0 35px 0;
+                            &:focus {
+                                outline: 3px solid #0d4866;
+                            }
+                        }
+                        small {
+                            position: absolute;
+                            top: 215px;
+                        }
+                    }
+                }
+            }
+        }
+    }       
+}
