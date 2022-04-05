@@ -55,6 +55,8 @@ html, body {
   font-weight: 400;
   background-color: rgb(240, 243, 244);
   font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
